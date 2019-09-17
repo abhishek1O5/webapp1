@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../Images/cclass.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:100vh;
+}
+
+.row{
+	max-width: :1180px;
+	margin: 0 auto;
+}
+.pic{
+	height:450px;
+	width:550px;
+	float: left;
+	margin-top:120px;
+	margin-left:70px;
+	border: 0px solid;
+
+}
+.main-nav{
+	float: right;
+	margin: 40px
+}
+.main-nav li{
+
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+
+}
+
+.main-nav li a{
+	color: #fff;
+	text-decoration: none;
+	text-transform:	uppercase;
+	font-size:20px;
+	font-weight: 100;
+	transform: scale(1);
+}
+.main-nav li a:hover{
+
+	text-decoration: underline;
+	transform: scale(2);
+}
+.main-content{
+	
+	position: absolute;
+	top:40%;
+	left:55%;
+	
+	
+}
+
+h1{
+	color:#fff;
+	font-size: 300%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	
+}
+h3{
+	color:#fff;
+	font-size: 150%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	
+}
+p{
+	color:#fff;
+	font-size: 100%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-style: italic;
+	
+}
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: lighter;;
+	text-decoration: none;
+	border-radius: 200px;
+	transition: background-color 0.2s,border 0.2s,color 0.2;
+}
+.btn-full{
+		background-color: transparent;
+		color: #fff;
+		border: 1px solid;
+}
