@@ -1,3 +1,4 @@
+
 *{
 	margin: 0px;
 	padding: 0px;
@@ -17,13 +18,26 @@ header{
 	margin: 0 auto;
 }
 .pic{
-	height:450px;
-	width:550px;
+	height:250px;
+	width:350px;
 	float: left;
 	margin-top:120px;
-	margin-left:70px;
+	margin-left:30px;
+	border: 0px solid;
+	animation-name: fadeIn;
+}
+.pic1{
+	height:250px;
+	width:350px;
+	float: left;
+	margin-top:100px;
+	margin-left:0px;
 	border: 0px solid;
 
+}
+.sty{
+	border: 2px solid;
+	border-color: #fff;
 }
 .main-nav{
 	float: right;
